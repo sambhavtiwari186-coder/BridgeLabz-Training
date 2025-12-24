@@ -104,4 +104,26 @@
    
 ## 🔮 Upcoming Learning
 - Arrays in C#  
+- Strings in C#
+
+- ## 📅 Day 05
+
+**Date:** 22-12-2025 (Tuesday)
+
+## 📘 What I Learned
+
+- Learned about **arrays in C#** and their importance in storing multiple values of the same data type  
+- Understood **array declaration, initialization, and indexing**  
+- Learned various **use cases of arrays** in real-world and programming problems  
+- Practiced accessing and manipulating array elements using loops  
+
+## 📝 Assignment for the Day
+
+- Solved **Level 3 problems** related to **control flow statements**  
+- Started solving **Level 1 problems of arrays**  
+- Practiced combining **loops and arrays** to solve logical problems  
+
+## 🔮 Upcoming Learning
 - Strings in C#  
+ 
+
