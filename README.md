@@ -106,7 +106,7 @@
 - Arrays in C#  
 - Strings in C#
 
-- ## 📅 Day 05
+ ## 📅 Day 05
 
 **Date:** 22-12-2025 (Tuesday)
 
@@ -125,7 +125,7 @@
 
 ## 🔮 Upcoming Learning
 - Methods in C#
-- ## 📅 Day 06
+## 📅 Day 06
 
 **Date:** 23-12-2025 (Wednesday)
 
@@ -136,7 +136,7 @@
 - Learned the **basics of methods in C#**, including method declaration and usage  
 - Practiced breaking programs into **reusable methods** for better code structure  
 - Improved logical thinking by applying arrays and methods together
-- 
+   
 ## 📝 Assignment for the Day
 
 - Solved **Level 2 problems on arrays**  
@@ -151,5 +151,6 @@
 - Methods in C#  
 
  
+
 
 
