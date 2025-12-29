@@ -156,6 +156,7 @@
 
 📘 **WHAT I LEARNED**
 • Learned about **Methods in C#**
+
 • Understood the **importance, implications, and use-cases** of methods
 • Learned how methods improve **code reusability, modularity, and readability**
 • Practiced **method declaration, definition, and calling**
@@ -194,9 +195,11 @@
 • **OOPs (Object-Oriented Programming)**
 
 📅 **DAY 09**
+
 **Date:** 29-12-2025 (Monday)
 
 📘 **WHAT I LEARNED**
+
 • Gained deeper understanding of solving **scenario-based questions**
 • Solved **two different types of scenario-based problems**, each involving **distinct scenarios**
 • Improved ability to analyze problem statements and design step-by-step solutions
@@ -216,6 +219,7 @@
 
 
  
+
 
 
 
