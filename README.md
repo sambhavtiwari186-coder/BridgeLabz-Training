@@ -148,9 +148,69 @@
   
 ## 🔮 Upcoming Learning
 
-- Methods in C#  
+- Methods in C#
+
+- 📅 Day 07
+Date: 24-12-2025 (Thursday)
+
+📘 What I Learned
+
+
+Learned about methods in C#
+
+
+Understood the importance, implications, and use-cases of methods in programming
+
+
+Learned how methods help in code reusability, modularity, and readability
+
+
+Practiced method declaration, definition, and calling
+
+
+Improved understanding of how breaking logic into methods makes programs easier to manage and debug
+
+
+
+📝 Assignment for the Day
+
+
+Solved Level 1 and Level 2 problem sets on methods
+
+
+Implemented solutions to basic programming questions using methods
+
+
+Practiced hands-on method calling from the Main() method
+
+
+Solved real-life based problems such as:
+
+
+Unit Conversion
+
+
+Voter’s Eligibility Check
+
+
+
+
+Strengthened logical thinking by applying methods to solve structured problems
+
+
+
+🔮 Upcoming Learning
+
+
+How to solve scenario-based questions
+
+
+Introduction to OOPs (Object-Oriented Programming) concepts
+
+
 
  
+
 
 
 
