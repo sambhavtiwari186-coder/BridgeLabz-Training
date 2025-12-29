@@ -159,41 +159,67 @@
 • Learned about **Methods in C#**
 
 • Understood the **importance, implications, and use-cases** of methods
+
 • Learned how methods improve **code reusability, modularity, and readability**
+
 • Practiced **method declaration, definition, and calling**
+
 • Improved logical thinking by breaking programs into **reusable methods**
 
 📝 **ASSIGNMENT FOR THE DAY**
+
 • Solved **Level 1 and Level 2** problem sets on methods
+
 • Implemented **basic programming questions using methods**
+
 • Practiced **hands-on method calling** from the `Main()` method
+
 • Solved real-life based problems:
+
   - **Unit Conversion**
+  - 
   - **Voter’s Eligibility Check**
+  - 
 • Strengthened understanding of **method-based problem solving**
 
 🔮 **UPCOMING LEARNING**
+
 • Solving **scenario-based questions**
+
 • Introduction to **OOPs (Object-Oriented Programming)** concepts
 
 📅 **DAY 08**
+
 **Date:** 26-12-2025 (Friday)
 
+
 📘 **WHAT I LEARNED**
+
 • Learned how to solve **scenario-based problems**
+
 • Understood how to **approach a problem step-by-step**
+
 • Practiced breaking complex scenarios into **smaller logical steps**
+
 • Did additional **research on methods** and learned their **real-world use cases**
+
 • Improved problem-solving and analytical thinking skills
 
 📝 **ASSIGNMENT FOR THE DAY**
+
 • Solved a **scenario-based Snake and Ladder problem**
+
 • Solved **Level 3 problems on Methods**
+
 • Applied methods effectively to handle complex logic
+
 • Strengthened confidence in solving **real-life scenario-based questions**
 
+
 🔮 **UPCOMING LEARNING**
+
 • **OOPs (Object-Oriented Programming)**
+
 
 📅 **DAY 09**
 
@@ -202,24 +228,35 @@
 📘 **WHAT I LEARNED**
 
 • Gained deeper understanding of solving **scenario-based questions**
+
 • Solved **two different types of scenario-based problems**, each involving **distinct scenarios**
+
 • Improved ability to analyze problem statements and design step-by-step solutions
+
 • Learned the fundamentals of **Classes and Objects in OOPs**
+
 • Understood how real-world entities are represented using classes and objects
 
 📝 **ASSIGNMENT FOR THE DAY**
+
 • Solved **two scenario-based questions**
+
 • Completed **Level 1 problems on Classes and Objects**
+
 • Practiced creating classes, objects, and accessing their members
+
 • Strengthened foundational knowledge of **OOPs concepts**
 
+
 🔮 **UPCOMING LEARNING**
+
 • **Pillars of OOPs**
 
 
 
 
  
+
 
 
 
