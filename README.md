@@ -176,10 +176,8 @@
 
 • Solved real-life based problems:
 
-  - **Unit Conversion**
-  - 
+  - **Unit Conversion**    
   - **Voter’s Eligibility Check**
-  - 
 • Strengthened understanding of **method-based problem solving**
 
 🔮 **UPCOMING LEARNING**
@@ -256,6 +254,7 @@
 
 
  
+
 
 
 
