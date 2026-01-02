@@ -226,11 +226,95 @@
 
 - **Pillars of OOPs**
 
+- ## 📅 **Day 10**
+
+**Date:** 30-12-2025 (Tuesday)
+
+### 📘 **What I Learned**
+
+- Learned about **constructors** and their role in object initialization
+- Understood the difference between **instance variables and class (static) variables**
+- Learned about **access modifiers** and their scope (`public`, `private`, `protected`, `internal`)
+- Gained clarity on how these concepts are applied in real-world programs
+- Strengthened understanding of **object-oriented fundamentals**
+
+### 📝 **Assignment for the Day**
+
+- Solved **two scenario-based questions**:
+  - Library Management System
+  - EduQuiz
+- Solved **Level 1 problems** on:
+  - Constructors
+  - Access Modifiers
+  - Instance vs Class Variables
+- Practiced applying OOP concepts through hands-on coding
+
+### 🔮 **Upcoming Learning**
+
+- Keywords: **this**, **sealed**, **static**
+- **is operator**
+
+---
+
+## 📅 **Day 11**
+
+**Date:** 31-12-2025 (Wednesday)
+
+### 📘 **What I Learned**
+
+- Learned about the **this keyword** and its use in constructors and methods
+- Understood the purpose of the **sealed keyword**
+- Learned about the **static keyword** and static members
+- Understood the usage of the **is operator** for type checking
+- Improved clarity on controlling class behavior using keywords
+
+### 📝 **Assignment for the Day**
+
+- Solved **two scenario-based questions**:
+  - Invoice Generator for Freelancer
+  - Bank Management System
+- Solved assignment questions on:
+  - **static keyword**
+  - **this keyword**
+  - **sealed keyword**
+  - **is operator**
+- Strengthened understanding of keyword-based logic in C#
+
+### 🔮 **Upcoming Learning**
+
+- **Object-Oriented Design Principles**
+
+---
+
+## 📅 **Day 12**
+
+**Date:** 01-01-2026 (Thursday)
+
+### 📘 **What I Learned**
+
+- Learned about **Object-Oriented Design Principles**
+- Understood the importance of designing **scalable and maintainable software**
+- Gained insight into principles such as **encapsulation, abstraction, and modular design**
+- Learned how design principles help reduce code complexity
+
+### 📝 **Assignment for the Day**
+
+- Solved **one scenario-based question**:
+  - Cafeteria System
+- Solved assignment questions on **Object-Oriented Design Principles**
+- Applied design principles to structure clean and efficient code
+
+### 🔮 **Upcoming Learning**
+
+- **Inheritance**
+
+
 
 
 
 
  
+
 
 
 
