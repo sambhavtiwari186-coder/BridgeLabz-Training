@@ -308,12 +308,91 @@
 
 - **Inheritance**
 
+ ## 📅 **Day 13**
+
+**Date:** 02-01-2026 (Friday)
+
+### 📘 **What I Learned**
+
+- Learned about **Inheritance in OOPs**
+- Understood how inheritance helps in **code reusability** and hierarchical relationships
+- Learned how child classes inherit properties and methods from parent classes
+- Improved understanding of real-life examples mapped using inheritance
+
+### 📝 **Assignment for the Day**
+
+- Solved **two scenario-based questions**:
+  - Festival Lucky Draw
+  - Bus Route Distance Tracker
+- Solved practice questions based on **Inheritance**
+- Strengthened understanding of **parent-child class relationships**
+
+### 🔮 **Upcoming Learning**
+
+- **Encapsulation**
+- **Abstraction**
+- **Polymorphism**
+
+---
+
+## 📅 **Day 14**
+
+**Date:** 03-01-2026 (Saturday)
+
+### 📘 **What I Learned**
+
+- Learned more about **OOPs concepts** and their real-world applications
+- Understood the role and **usage of access modifiers** in OOPs
+- Learned how access modifiers control data accessibility and security
+- Strengthened conceptual clarity of object-oriented programming
+
+### 📝 **Assignment for the Day**
+
+- Solved practice questions on:
+  - **Single Inheritance**
+  - **Multilevel Inheritance**
+- Implemented inheritance concepts using proper access modifiers
+- Improved logical understanding of class hierarchies
+
+### 🔮 **Upcoming Learning**
+
+- **Encapsulation**
+- **Polymorphism**
+- **Abstraction**
+
+---
+
+## 📅 **Day 15**
+
+**Date:** 05-01-2026 (Monday)
+
+### 📘 **What I Learned**
+
+- Learned about **Encapsulation**, **Polymorphism**, and **Abstraction**
+- Understood the **usage and importance** of these OOPs concepts
+- Learned how to implement OOPs concepts in **real-life scenarios**
+- Improved ability to design modular and maintainable applications
+
+### 📝 **Assignment for the Day**
+
+- Solved **two scenario-based questions**:
+  - Hospital Patient Management System
+  - Vehicle Management System
+- Applied different **OOPs concepts** to solve real-world problems
+- Strengthened hands-on understanding of **object-oriented programming**
+
+### 🔮 **Upcoming Learning**
+
+- More on **Four Pillars of OOPs**
+
+
 
 
 
 
 
  
+
 
 
 
