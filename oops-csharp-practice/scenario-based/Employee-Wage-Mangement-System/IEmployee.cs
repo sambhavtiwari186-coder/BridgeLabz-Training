@@ -4,7 +4,13 @@ using System.Text;
 
 namespace BridgeLabzTraining.scenario_based.EmployeeWageMangement
 {
-    internal interface IEmployee
+     interface IEmployee
     {
-    }
+        Employee AddEmployee();
+
+        bool EmployeePresentOrNot(); //UC 1
+        int DailyWageCalculate(); //UC 2
+
+        
+      }
 }
