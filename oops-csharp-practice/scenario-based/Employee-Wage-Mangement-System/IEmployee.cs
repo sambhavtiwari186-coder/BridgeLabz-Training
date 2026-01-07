@@ -11,6 +11,6 @@ namespace BridgeLabzTraining.scenario_based.EmployeeWageMangement
         bool EmployeePresentOrNot(); //UC 1
         int DailyWageCalculate(); //UC 2
 
-        
-      }
+        int PartTimeWageCalculate(); //UC:03
+    }
 }

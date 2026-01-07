@@ -19,6 +19,9 @@ namespace BridgeLabzTraining.scenario_based.EmployeeWageMangement
             empMenu.EmployeeChoice();
             // UC:02
             empMenu.EmployeeWage();
+            //UC:03
+
+            empMenu.EmployeePartTimeWage();
         }
     }
 }

@@ -34,5 +34,16 @@ namespace BridgeLabzTraining.scenario_based.EmployeeWageMangement
                 Console.WriteLine($"Daily Employee Wage: {dailyWage}");
             }
         }
-}
+        public void EmployeePartTimeWage()
+        {
+            // UC:03
+            bool present = Iemployee.EmployeePresentOrNot();
+
+            if (present)
+            {
+                int partTimeWage = Iemployee.PartTimeWageCalculate();
+                Console.WriteLine($"Part Time Wage: {partTimeWage}");
+            }
+        }
+    }
 }

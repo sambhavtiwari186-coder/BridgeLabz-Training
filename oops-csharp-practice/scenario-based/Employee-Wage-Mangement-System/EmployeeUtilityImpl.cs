@@ -10,6 +10,7 @@ namespace BridgeLabzTraining.scenario_based.EmployeeWageMangement
         private Employee employee;
         private int wagePerHour = 20;
         private int fullDayHrs = 8;
+        private int partTimeHrs = 7;
 
         public Employee AddEmployee()
         {
@@ -28,6 +29,11 @@ namespace BridgeLabzTraining.scenario_based.EmployeeWageMangement
         public int DailyWageCalculate()
         {
             return wagePerHour * fullDayHrs;
+        }
+        //UC:03
+        public int PartTimeWageCalculate()
+        {
+            return partTimeHrs * wagePerHour;
         }
     }
     }
