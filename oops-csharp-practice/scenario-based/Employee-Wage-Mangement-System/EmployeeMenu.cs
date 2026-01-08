@@ -1,49 +1,85 @@
-﻿using System;
+﻿using BridgeLabzTraining.scenario_based.EmployeeWageMangement;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BridgeLabzTraining.scenario_based.EmployeeWageMangement
+namespace BridgeLabzTraining.oops_csharp_encapsulation_polymorphism_interface_abstract_class.EmployeeWage
 {
-    class EmployeeMenu
+    sealed class EmployeeMenu
     {
-        private IEmployee Iemployee;
-
+        private IEmployee employeeUtility;
 
         public void EmployeeChoice()
         {
-            Iemployee = new EmployeeUtilityImpl();
 
-            // UC:01
-            bool presentOrNot = Iemployee.EmployeePresentOrNot();
+            //checking functionality of checkattendance
+            employeeUtility = new EmployeeUtilityImpl();
+            Employee E1 = employeeUtility.AddEmployee();
+            //string checkAttendance = employeeUtility.CheckAttendance(E1);
+            //Console.WriteLine(checkAttendance);
 
-            if (presentOrNot)
-                Console.WriteLine("Employee is Present");
-            else
-                Console.WriteLine("Employee is Absent");
+            //checking functionality of calculate dailywage
+            //double dailyWage = employeeUtility.EmployeeWage(E1, checkAttendance);
+            //Console.WriteLine(dailyWage);
 
-            
-        }
+            //checking functionality for part time employee 
+            //string employeeContract = employeeUtility.PartTimeEmployee(E1);
+            //Console.WriteLine(employeeContract);
 
-        public void EmployeeWage()
-        {
-            bool presentOrNot = Iemployee.EmployeePresentOrNot();
-            // UC:02
-            if (presentOrNot)
+            bool isTure = true;
+
+
+            // UC 4 Added switch case 
+            while (isTure)
             {
-                int dailyWage = Iemployee.DailyWageCalculate();
-                Console.WriteLine($"Daily Employee Wage: {dailyWage}");
-            }
-        }
-        public void EmployeePartTimeWage()
-        {
-            // UC:03
-            bool present = Iemployee.EmployeePresentOrNot();
+                Console.WriteLine("Press 1 : Check Employee is Present or Absent");
+                Console.WriteLine("Press 2 : Check Daily Wage of employee");
+                Console.WriteLine("Press 3 : Check Employee is full time or part time");
+                Console.WriteLine("Press 4 : Check employee monthly wage");
+                Console.WriteLine("Press 5 : Check employee wage till now");
+                Console.WriteLine("Press 6 : Exit");
 
-            if (present)
-            {
-                int partTimeWage = Iemployee.PartTimeWageCalculate();
-                Console.WriteLine($"Part Time Wage: {partTimeWage}");
+                int choice = Convert.ToInt32(Console.ReadLine());
+
+                switch (choice)
+                {
+                    case 1:
+                        string checkAttendance = employeeUtility.CheckAttendance(E1);
+                        Console.WriteLine(checkAttendance);
+                        break;
+
+                    case 2:
+                        string checkAttendance1 = employeeUtility.CheckAttendance(E1);
+                        double dailyWage = employeeUtility.EmployeeWage(E1, checkAttendance1);
+                        Console.WriteLine(dailyWage);
+                        break;
+
+                    case 3:
+                        string employeeContract = employeeUtility.PartTimeEmployee(E1);
+                        Console.WriteLine(employeeContract);
+                        break;
+
+                    case 4:
+                        double wage = employeeUtility.CalculateMonthWage(E1);
+                        Console.WriteLine(wage);
+                        break;
+
+                    case 5:
+                        double wageTillNow = employeeUtility.CalculateWageTillNow(E1);
+                        Console.WriteLine(wageTillNow);
+                        break;
+
+                    case 6:
+                        isTure = false;
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid input");
+                        break;
+                }
+
             }
+
         }
     }
 }

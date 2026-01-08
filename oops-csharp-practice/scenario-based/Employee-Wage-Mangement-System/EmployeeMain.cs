@@ -2,26 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BridgeLabzTraining.scenario_based.EmployeeWageMangement
+namespace BridgeLabzTraining.oops_csharp_encapsulation_polymorphism_interface_abstract_class.EmployeeWage
 {
-    class EmployeeMain
+    internal class EmployeeMain
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Employee Wage Computation Program");
-
-
-            EmployeeMenu empMenu;
-            empMenu = new EmployeeMenu();
-
-
-            // UC:01
-            empMenu.EmployeeChoice();
-            // UC:02
-            empMenu.EmployeeWage();
-            //UC:03
-
-            empMenu.EmployeePartTimeWage();
+            EmployeeMenu employeeMenu = new EmployeeMenu();
+            employeeMenu.EmployeeChoice();
         }
     }
 }
+

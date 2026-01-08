@@ -2,15 +2,21 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BridgeLabzTraining.scenario_based.EmployeeWageMangement
+namespace BridgeLabzTraining.oops_csharp_encapsulation_polymorphism_interface_abstract_class.EmployeeWage
 {
-     interface IEmployee
+    internal interface IEmployee
     {
-        Employee AddEmployee();
+        public Employee AddEmployee();
 
-        bool EmployeePresentOrNot(); //UC 1
-        int DailyWageCalculate(); //UC 2
+        public string CheckAttendance(Employee employee);
 
-        int PartTimeWageCalculate(); //UC:03
+        public double EmployeeWage(Employee employee, string checkAttendace);
+
+
+        public string PartTimeEmployee(Employee employee);
+
+        public double CalculateMonthWage(Employee employee);
+
+        public double CalculateWageTillNow(Employee employee);
     }
 }
