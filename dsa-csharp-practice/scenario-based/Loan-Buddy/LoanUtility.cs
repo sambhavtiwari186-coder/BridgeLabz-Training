@@ -4,7 +4,19 @@ using System.Text;
 
 namespace BridgeLabzTraining.Loan_Buddy
 {
-    internal class LoanUtility
+    class LoanUtility
     {
+        public static void ProcessLoan(LoanApplication loan)
+        {
+            if (loan.ApproveLoan())
+            {
+                Console.WriteLine("\nLoan Approved ✅");
+                Console.WriteLine("Monthly EMI: ₹" + loan.CalculateEMI());
+            }
+            else
+            {
+                Console.WriteLine("\nLoan Rejected ❌");
+            }
+        }
     }
 }
