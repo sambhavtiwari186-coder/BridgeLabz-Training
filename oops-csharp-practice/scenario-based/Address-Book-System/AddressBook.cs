@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace BridgeLabz_2.Address_Book_System
+{
+       class AddressBook
+    {
+        public Contact[] Contacts;
+        public int count;
+        public AddressBook(int size) {
+            Contacts = new Contact[size];
+            int count = 0;
+        }
+    }
+}
