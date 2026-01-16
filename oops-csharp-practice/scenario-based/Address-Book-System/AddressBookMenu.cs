@@ -6,24 +6,26 @@ namespace BridgeLabz_2.Address_Book_System
 {
      class AddressBookMenu
     {
-        private IAddressBook utility;
+        private AddressBook addressBook;
+        private AddressBookUtility addressBookUtility;
 
         public AddressBookMenu()
         {
-            AddressBook book = new AddressBook(10);
-            utility = new AddressBookUtility(book);
+            addressBook = new AddressBook();
+            addressBookUtility = new AddressBookUtility(addressBook); 
         }
 
-        public void Start()
+        public void ShowMenu()
         {
             int choice;
 
             do
             {
-                Console.WriteLine("\n===== Address Book Menu =====");
+                Console.WriteLine("\n----- Address Book Menu -----");
                 Console.WriteLine("1. Add Contact");
-                Console.WriteLine("2. Display Contacts");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("2. Edit Contact");
+                Console.WriteLine("3. Display Contacts");
+                Console.WriteLine("4. Exit");
                 Console.Write("Enter your choice: ");
 
                 choice = Convert.ToInt32(Console.ReadLine());
@@ -31,26 +33,26 @@ namespace BridgeLabz_2.Address_Book_System
                 switch (choice)
                 {
                     case 1:
-                        AddContactMenu();
+                        AddContactFromConsole();
                         break;
-
                     case 2:
-                        utility.DisplayContacts();
+                        EditContactFromConsole();
                         break;
-
                     case 3:
-                        Console.WriteLine("Exiting Address Book...");
+                        addressBookUtility.DisplayContacts();
                         break;
-
+                    case 4:
+                        Console.WriteLine("Exiting...");
+                        break;
                     default:
-                        Console.WriteLine("Invalid choice ❌");
+                        Console.WriteLine("Invalid choice");
                         break;
                 }
-            }
-            while (choice != 3);
+
+            } while (choice != 4);
         }
 
-        private void AddContactMenu()
+        private void AddContactFromConsole()
         {
             Console.Write("First Name: ");
             string firstName = Console.ReadLine();
@@ -67,21 +69,28 @@ namespace BridgeLabz_2.Address_Book_System
             Console.Write("State: ");
             string state = Console.ReadLine();
 
-            Console.Write("Phone Number: ");
-            string phone = Console.ReadLine();
-
-            Console.Write("Zip Code: ");
+            Console.Write("Zip: ");
             string zip = Console.ReadLine();
+
+            Console.Write("Phone: ");
+            string phone = Console.ReadLine();
 
             Console.Write("Email: ");
             string email = Console.ReadLine();
 
             Contact contact = new Contact(
-                firstName, lastName, address,
-                city, state, phone, zip, email
+                firstName, lastName, address, city, state, zip, phone, email
             );
 
-            utility.AddContact(contact);
+            addressBookUtility.AddContact(contact);
+        }
+
+        private void EditContactFromConsole()
+        {
+            Console.Write("Enter First Name to Edit: ");
+            string name = Console.ReadLine();
+
+            addressBookUtility.EditContact(name);
         }
     }
 }

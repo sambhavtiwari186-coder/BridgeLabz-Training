@@ -9,8 +9,11 @@ namespace BridgeLabz_2.Address_Book_System
         public static void Main()
         {
 
+            Console.WriteLine("Welcome to Address Book Program");
+
+            // Only responsibility of Main
             AddressBookMenu menu = new AddressBookMenu();
-            menu.Start();
+            menu.ShowMenu();
         }
     }
 }

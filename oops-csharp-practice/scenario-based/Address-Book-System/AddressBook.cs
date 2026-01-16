@@ -8,9 +8,10 @@ namespace BridgeLabz_2.Address_Book_System
     {
         public Contact[] Contacts;
         public int count;
-        public AddressBook(int size) {
-            Contacts = new Contact[size];
-            int count = 0;
+        public AddressBook()
+        {
+            Contacts = new Contact[10];
+            count = 0;
         }
     }
 }

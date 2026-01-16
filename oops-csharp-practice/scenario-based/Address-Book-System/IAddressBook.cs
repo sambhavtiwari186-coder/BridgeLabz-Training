@@ -8,5 +8,6 @@ namespace BridgeLabz_2.Address_Book_System
     {
         void AddContact(Contact contact);
         void DisplayContacts();
+        void EditContact(string firstName);
     }
 }
