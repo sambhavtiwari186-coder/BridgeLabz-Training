@@ -1,13 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BridgeLabz_2.Address_Book_System
+﻿namespace BridgeLabzTraining.oops_csharp_buddy.scenario_based.address_book_system
 {
-     interface IAddressBook
+    interface IAddressBook
     {
-        void AddContact(Contact contact);
-        void DisplayContacts();
-        void EditContact(string firstName);
+        void AddContact(AddressBookSystem book, Contact contact);
+        Contact GetContact(AddressBookSystem book, string name);
+        bool DeleteContact(AddressBookSystem book, Contact contact);
+        bool IsDuplicateContact(AddressBookSystem book, string firstName, string lastName);
+        void PrintFrom(AddressBookSystem book, string location);
+
+        void SortByName(AddressBookSystem book);
+
     }
 }

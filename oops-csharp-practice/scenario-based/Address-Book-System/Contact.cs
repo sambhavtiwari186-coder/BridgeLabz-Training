@@ -1,24 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace BridgeLabz_2.Address_Book_System
+namespace BridgeLabzTraining.oops_csharp_buddy.scenario_based.address_book_system
 {
-    public  class Contact
+    class Contact
     {
         public string FirstName { get; private set; }
         public string LastName { get; private set; }
+        public string Address { get; private set; }
+        public string City { get; private set; }
+        public string State { get; private set; }
+        public string Zip { get; private set; }
+        public string PhoneNumber { get; private set; }
+        public string Email { get; private set; }
 
-        public string Address { get; set; }
-        public string City { get; set; }
-        public string State { get; set; }
-        public string Zip { get; set; }
-        public string PhoneNumber { get; set; }
-        public string Email { get; set; }
-
-        public Contact(string firstName, string lastName, string address,
-                       string city, string state, string zip,
-                       string phoneNumber, string email)
+        public Contact(
+            string firstName,
+            string lastName,
+            string address,
+            string city,
+            string state,
+            string zip,
+            string phoneNumber,
+            string email)
         {
             FirstName = firstName;
             LastName = lastName;
@@ -29,16 +32,29 @@ namespace BridgeLabz_2.Address_Book_System
             PhoneNumber = phoneNumber;
             Email = email;
         }
-        public void DisplayDetails()
+
+        // Update methods (UC-03)
+        public void UpdateAddress(string value) => Address = value;
+        public void UpdateCity(string value) => City = value;
+        public void UpdateState(string value) => State = value;
+        public void UpdateZip(string value) => Zip = value;
+        public void UpdatePhone(string value) => PhoneNumber = value;
+        public void UpdateEmail(string value) => Email = value;
+
+        public override string ToString()
         {
-            Console.WriteLine("Name    : " + FirstName + " " + LastName);
-            Console.WriteLine("Address : " + Address);
-            Console.WriteLine("City    : " + City);
-            Console.WriteLine("State   : " + State);
-            Console.WriteLine("Zip     : " + Zip);
-            Console.WriteLine("Phone   : " + PhoneNumber);
-            Console.WriteLine("Email   : " + Email);
-            Console.WriteLine("--------------------------------");
+            return $"{FirstName} {LastName} | {City}, {State}, {Zip} | {PhoneNumber} | {Email}";
+        }
+
+        // UC-07 Duplicate check
+        public override bool Equals(object obj)
+        {
+            if (this == obj) return true;
+            if (obj == null || GetType() != obj.GetType()) return false;
+
+            Contact other = (Contact)obj;
+            return FirstName.Equals(other.FirstName, StringComparison.OrdinalIgnoreCase)
+                && LastName.Equals(other.LastName, StringComparison.OrdinalIgnoreCase);
         }
     }
 }
