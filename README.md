@@ -710,6 +710,85 @@
 
 **C# Streams**
 
+---
+## 📅 **Day 28**
+
+**Date:** 21-01-2026 (Wednesday)
+
+### 📘 **What I Learned**
+
+- Learned the **introduction to C# Streams**
+- Understood the **use cases of C# Streams** for reading and writing data
+- Learned how streams help in handling **files and data flow efficiently**
+- Gained clarity on applying streams in real-world applications
+
+### 📝 **Assignment for the Day**
+
+- Solved **two scenario-based questions**:
+  - Result & Rank Sheet Generator
+  - Smart Checkout – Supermarket Billing Queue
+- Solved the **assignment questions on C# Streams**
+- Practiced using streams for structured data processing
+
+### 🔮 **Upcoming Learning**
+
+- **Exception Handling in C#**
+
+---
+
+## 📅 **Day 29**
+
+**Date:** 22-01-2026 (Thursday)
+
+### 📘 **What I Learned**
+
+- Learned about **Exception Handling in C#**
+- Understood the importance of handling runtime errors gracefully
+- Learned different exception handling constructs:
+  - `try`
+  - `catch`
+  - `finally`
+  - `throw`
+- Gained insight into writing **robust and fault-tolerant code**
+
+### 📝 **Assignment for the Day**
+
+- Solved a **scenario-based question**:
+  - Ambulance Route Emergency Patient Navigator  
+    - Implemented using **Circular Linked List**
+- Solved the **assignment questions on Exception Handling**
+- Strengthened understanding of error handling in real-life scenarios
+
+### 🔮 **Upcoming Learning**
+
+- **Regex**
+- **Unit Testing**
+
+---
+
+## 📅 **Day 30**
+
+**Date:** 23-01-2026 (Friday)
+
+### 📘 **What I Learned**
+
+- Learned about **Regular Expressions (Regex)**
+- Understood how Regex is used for **pattern matching and validation**
+- Learned about **Unit Testing**
+- Understood the importance of testing individual components of code
+
+### 📝 **Assignment for the Day**
+
+- Completed and submitted the **assignments provided on**:
+  - **Regex**
+  - **Unit Testing**
+- Practiced validating inputs and testing code functionality
+
+### 🔮 **Upcoming Learning**
+
+- **Advanced Testing & Validation Techniques**
+
+
 
 
 
@@ -721,6 +800,7 @@
 
 
  
+
 
 
 
