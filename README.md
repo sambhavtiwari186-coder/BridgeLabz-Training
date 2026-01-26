@@ -659,6 +659,58 @@
 
 - **Generics**
 
+- --
+## 📅 **Day 26**
+
+**Date:** 19-01-2026 (Monday)
+
+### 📘 **What I Learned**
+
+- Learned the **basics of Generics** in C#
+- Understood the **use cases of Generics** and how they improve code reusability
+- Learned how Generics help in writing **type-safe and flexible code**
+- Gained clarity on how Generics reduce redundancy and improve maintainability
+
+### 📝 **Assignment for the Day**
+
+- Solved **two scenario-based questions**:
+  - **Parcel Tracker**
+    - Implemented using **Singly Linked List**
+  - **Exam Proctor**
+    - Implemented using **Stack**, **HashMap**, and **Functions**
+- Solved the **assignment problems on Generics**
+- Strengthened understanding of applying Generics in real-world scenarios
+
+### 🔮 **Upcoming Learning**
+
+- **Collections**
+
+---
+
+## 📅 **Day 27**
+
+**Date:** 20-01-2026 (Tuesday)
+
+### 📘 **What I Learned**
+
+- Learned the **basics of Collections** in C#
+- Understood the **use cases of Collections** and when to use them
+- Learned how Collections are used to manage dynamic data efficiently
+- Gained clarity on implementing Collections in real-world C# programs
+
+### 📝 **Assignment for the Day**
+
+- Solved **two scenario-based questions**:
+  - Sorting **Aadhar Numbers using Radix Sort**
+  - **Password Checker Simulator**
+- Solved the **assignment problems on Collections**
+- Practiced combining **Collections with algorithms** for efficient solutions
+
+### 🔮 **Upcoming Learning**
+
+**C# Streams**
+
+
 
 
 
@@ -669,6 +721,7 @@
 
 
  
+
 
 
 
