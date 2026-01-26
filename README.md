@@ -546,6 +546,120 @@
 
 - **Generics**
 
+---
+
+  ## 📅 **Day 22**
+
+**Date:** 14-01-2026 (Wednesday)
+
+### 📘 **What I Learned**
+
+- Learned a **new way of solving problems based on use cases**
+- Understood how to **commit solutions on GitHub** following use-case-driven approaches
+- Learned how structuring code around use cases improves clarity and maintainability
+
+### 📝 **Assignment for the Day**
+
+- Solved a **scenario-based Address Book problem**
+- Applied use-case-based logic while implementing the solution
+- Practiced committing structured solutions to GitHub
+
+### 🔮 **Upcoming Learning**
+
+- **Generics**
+
+---
+
+## 📅 **Day 23**
+
+**Date:** 15-01-2026 (Thursday)
+
+### 📘 **What I Learned**
+
+- Learned the practical **uses of core DSA concepts**:
+  - Stack
+  - Queue
+  - Linked List
+  - Dictionary
+  - Searching
+  - Sorting
+- Understood how these data structures are selected based on **problem requirements**
+- Improved clarity on applying DSA concepts in real-world scenarios
+
+### 📝 **Assignment for the Day**
+
+- Solved a **scenario-based question**:
+  - Browser Buddy
+- Implemented the solution using:
+  - **Doubly Linked List**
+  - **Stack**
+- Strengthened understanding of combining multiple data structures in one problem
+
+### 🔮 **Upcoming Learning**
+
+- **Generics**
+
+---
+
+## 📅 **Day 24**
+
+**Date:** 16-01-2026 (Friday)
+
+### 📘 **What I Learned**
+
+- Learned the practical **uses of core DSA concepts**:
+  - Stack
+  - Queue
+  - Linked List
+  - Dictionary
+  - Searching
+  - Sorting
+- Understood how these data structures are selected based on **problem requirements**
+- Improved clarity on applying DSA concepts in real-world scenarios
+
+### 📝 **Assignment for the Day**
+
+- Solved **two scenario-based questions**:
+  - Traffic Manager
+  - Bookshelf – Library Organization Story
+- Applied appropriate data structures based on use cases
+- Strengthened real-world problem-solving skills using DSA
+
+### 🔮 **Upcoming Learning**
+
+- **Generics**
+
+---
+
+## 📅 **Day 25**
+
+**Date:** 17-01-2026 (Saturday)
+
+### 📘 **What I Learned**
+
+- Learned the practical **uses of core DSA concepts**:
+  - Stack
+  - Queue
+  - Linked List
+  - Dictionary
+  - Searching
+  - Sorting
+- Understood how these data structures are selected based on **problem requirements**
+- Improved clarity on applying DSA concepts in real-world scenarios
+
+### 📝 **Assignment for the Day**
+
+- Solved **two scenario-based questions**:
+  - FlashDealz – Product Sorting by Discount (**Quick Sort**)
+  - Fitness App Tracking using **Bubble Sort**
+- Applied different sorting algorithms based on problem constraints
+- Strengthened understanding of algorithm selection and efficiency
+
+### 🔮 **Upcoming Learning**
+
+- **Generics**
+
+
 
 
 
@@ -555,6 +669,7 @@
 
 
  
+
 
 
 
