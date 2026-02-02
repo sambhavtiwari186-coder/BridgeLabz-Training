@@ -1,0 +1,14 @@
+C:\Users\anujv\OneDrive\Desktop\Test\Flip-Key-Logical\obj\Debug\net10.0\Flip-Key-Logical.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anujv\OneDrive\Desktop\Test\Flip-Key-Logical\obj\Debug\net10.0\Flip-Key-Logical.AssemblyInfoInputs.cache
+C:\Users\anujv\OneDrive\Desktop\Test\Flip-Key-Logical\obj\Debug\net10.0\Flip-Key-Logical.AssemblyInfo.cs
+C:\Users\anujv\OneDrive\Desktop\Test\Flip-Key-Logical\obj\Debug\net10.0\Flip-Key-Logical.csproj.CoreCompileInputs.cache
+C:\Users\anujv\OneDrive\Desktop\Test\Flip-Key-Logical\bin\Debug\net10.0\Flip-Key-Logical.exe
+C:\Users\anujv\OneDrive\Desktop\Test\Flip-Key-Logical\bin\Debug\net10.0\Flip-Key-Logical.deps.json
+C:\Users\anujv\OneDrive\Desktop\Test\Flip-Key-Logical\bin\Debug\net10.0\Flip-Key-Logical.runtimeconfig.json
+C:\Users\anujv\OneDrive\Desktop\Test\Flip-Key-Logical\bin\Debug\net10.0\Flip-Key-Logical.dll
+C:\Users\anujv\OneDrive\Desktop\Test\Flip-Key-Logical\bin\Debug\net10.0\Flip-Key-Logical.pdb
+C:\Users\anujv\OneDrive\Desktop\Test\Flip-Key-Logical\obj\Debug\net10.0\Flip-Key-Logical.dll
+C:\Users\anujv\OneDrive\Desktop\Test\Flip-Key-Logical\obj\Debug\net10.0\refint\Flip-Key-Logical.dll
+C:\Users\anujv\OneDrive\Desktop\Test\Flip-Key-Logical\obj\Debug\net10.0\Flip-Key-Logical.pdb
+C:\Users\anujv\OneDrive\Desktop\Test\Flip-Key-Logical\obj\Debug\net10.0\Flip-Key-Logical.genruntimeconfig.cache
+C:\Users\anujv\OneDrive\Desktop\Test\Flip-Key-Logical\obj\Debug\net10.0\ref\Flip-Key-Logical.dll
