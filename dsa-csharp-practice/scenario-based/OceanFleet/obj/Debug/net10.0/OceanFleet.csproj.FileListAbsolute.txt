@@ -1,0 +1,14 @@
+C:\Users\anujv\OneDrive\Desktop\Test\OceanFleet\obj\Debug\net10.0\OceanFleet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anujv\OneDrive\Desktop\Test\OceanFleet\obj\Debug\net10.0\OceanFleet.AssemblyInfoInputs.cache
+C:\Users\anujv\OneDrive\Desktop\Test\OceanFleet\obj\Debug\net10.0\OceanFleet.AssemblyInfo.cs
+C:\Users\anujv\OneDrive\Desktop\Test\OceanFleet\obj\Debug\net10.0\OceanFleet.csproj.CoreCompileInputs.cache
+C:\Users\anujv\OneDrive\Desktop\Test\OceanFleet\bin\Debug\net10.0\OceanFleet.exe
+C:\Users\anujv\OneDrive\Desktop\Test\OceanFleet\bin\Debug\net10.0\OceanFleet.deps.json
+C:\Users\anujv\OneDrive\Desktop\Test\OceanFleet\bin\Debug\net10.0\OceanFleet.runtimeconfig.json
+C:\Users\anujv\OneDrive\Desktop\Test\OceanFleet\bin\Debug\net10.0\OceanFleet.dll
+C:\Users\anujv\OneDrive\Desktop\Test\OceanFleet\bin\Debug\net10.0\OceanFleet.pdb
+C:\Users\anujv\OneDrive\Desktop\Test\OceanFleet\obj\Debug\net10.0\OceanFleet.dll
+C:\Users\anujv\OneDrive\Desktop\Test\OceanFleet\obj\Debug\net10.0\refint\OceanFleet.dll
+C:\Users\anujv\OneDrive\Desktop\Test\OceanFleet\obj\Debug\net10.0\OceanFleet.pdb
+C:\Users\anujv\OneDrive\Desktop\Test\OceanFleet\obj\Debug\net10.0\OceanFleet.genruntimeconfig.cache
+C:\Users\anujv\OneDrive\Desktop\Test\OceanFleet\obj\Debug\net10.0\ref\OceanFleet.dll
