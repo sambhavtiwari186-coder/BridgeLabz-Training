@@ -15,27 +15,31 @@ namespace TechVilleSmartCity.Services
             {
                 Console.WriteLine($"\n--- Registering Member {i} ---");
 
+                // NAME
                 Console.Write("Enter Name: ");
-                string name = Console.ReadLine();
+                string name = StringUtilities.FormatName(Console.ReadLine());
 
+                // AGE
                 Console.Write("Enter Age: ");
                 int age = Convert.ToInt32(Console.ReadLine());
 
                 if (!Validator.ValidateAge(age))
                 {
                     Console.WriteLine("Invalid Age. Skipping this member...");
-                    continue; // continue used here
+                    continue;
                 }
 
+                // INCOME
                 Console.Write("Enter Annual Income: ");
                 double income = Convert.ToDouble(Console.ReadLine());
 
                 if (!Validator.ValidateIncome(income))
                 {
                     Console.WriteLine("Invalid Income. Stopping Registration.");
-                    break; // break used here
+                    break;
                 }
 
+                // RESIDENCY
                 Console.Write("Enter Residency Years: ");
                 int residency = Convert.ToInt32(Console.ReadLine());
 
@@ -45,15 +49,45 @@ namespace TechVilleSmartCity.Services
                     continue;
                 }
 
-                Citizen citizen = new Citizen(name, age, income, residency);
+                // EMAIL
+                Console.Write("Enter Email: ");
+                string email = Console.ReadLine();
 
+                if (!StringUtilities.ValidateEmail(email))
+                {
+                    Console.WriteLine("Invalid Email Format. Skipping...");
+                    continue;
+                }
+
+                // ADDRESS
+                Console.Write("Enter Address (Include 6 digit PIN): ");
+                string address = Console.ReadLine();
+
+                string pin = StringUtilities.ExtractPin(address);
+                Console.WriteLine("Extracted PIN: " + pin);
+
+                // CREATE CITIZEN OBJECT
+                Citizen citizen = new Citizen(
+                    name,
+                    age,
+                    income,
+                    residency,
+                    email,
+                    address
+                );
+
+                // CALCULATE ELIGIBILITY
                 citizen.CalculateEligibility();
                 citizen.DetermineServicePackage();
 
+                // DISPLAY PROFILE
                 citizen.DisplayCitizenInfo();
 
+                // SHOW SERVICE BENEFITS
                 ServicePackage.ShowPackageBenefits(citizen.ServicePackage);
             }
+
+            Console.WriteLine("\nRegistration Session Completed.");
         }
     }
 }

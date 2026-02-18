@@ -1,5 +1,6 @@
 ﻿using System;
 using TechVilleSmartCity.Services;
+using TechVilleSmartCity.Models;
 
 namespace TechVilleSmartCity
 {
@@ -7,41 +8,26 @@ namespace TechVilleSmartCity
     {
         static void Main(string[] args)
         {
-            CitizenRegistrationService registrationService = new CitizenRegistrationService();
-            CitizenDatabaseService databaseService = new CitizenDatabaseService(100);
+            CitizenProfileService profileService = new CitizenProfileService();
 
-            // MODULE 2 LOGIC
-            registrationService.RegisterMultipleCitizens();
+            Citizen citizen = profileService.CreateProfile();
 
-            // MODULE 3 LOGIC
-            Console.WriteLine("\n=== Smart Citizen Database Module ===");
-
-            for (int i = 0; i < 5; i++)
+            if (citizen != null)
             {
-                Console.Write("Enter Citizen ID: ");
-                int id = Convert.ToInt32(Console.ReadLine());
+                citizen.DisplayCitizenInfo();
 
-                databaseService.AddCitizenId(id);
+                profileService.SearchCitizenByName(citizen);
 
-                Console.Write("Enter Zone (0-4): ");
-                int zone = Convert.ToInt32(Console.ReadLine());
+                // Pass by Value
+                citizen.UpdateIncome(50000);
 
-                Console.Write("Enter Sector (0-4): ");
-                int sector = Convert.ToInt32(Console.ReadLine());
+                // Pass by Reference
+                string newAddress = "Updated Street, TechVille - 560001";
+                citizen.UpdateAddress(ref newAddress);
 
-                databaseService.AssignZoneSector(zone, sector);
+                Console.WriteLine("\nAfter Updates:");
+                citizen.DisplayCitizenInfo();
             }
-
-            databaseService.DisplayCitizenIds();
-            databaseService.SortCitizenIds();
-            databaseService.DisplayCitizenIds();
-
-            Console.Write("Enter ID to Search: ");
-            int searchId = Convert.ToInt32(Console.ReadLine());
-            databaseService.SearchCitizen(searchId);
-
-            databaseService.CopyCitizenIds();
-            databaseService.DisplayZoneSectorData();
 
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
