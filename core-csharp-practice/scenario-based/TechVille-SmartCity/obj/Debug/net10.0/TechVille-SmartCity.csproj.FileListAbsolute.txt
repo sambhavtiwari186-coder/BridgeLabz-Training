@@ -1,0 +1,14 @@
+C:\Users\anujv\OneDrive\Desktop\TechVille-SmartCity\bin\Debug\net10.0\TechVille-SmartCity.exe
+C:\Users\anujv\OneDrive\Desktop\TechVille-SmartCity\bin\Debug\net10.0\TechVille-SmartCity.deps.json
+C:\Users\anujv\OneDrive\Desktop\TechVille-SmartCity\bin\Debug\net10.0\TechVille-SmartCity.runtimeconfig.json
+C:\Users\anujv\OneDrive\Desktop\TechVille-SmartCity\bin\Debug\net10.0\TechVille-SmartCity.dll
+C:\Users\anujv\OneDrive\Desktop\TechVille-SmartCity\bin\Debug\net10.0\TechVille-SmartCity.pdb
+C:\Users\anujv\OneDrive\Desktop\TechVille-SmartCity\obj\Debug\net10.0\TechVille-SmartCity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anujv\OneDrive\Desktop\TechVille-SmartCity\obj\Debug\net10.0\TechVille-SmartCity.AssemblyInfoInputs.cache
+C:\Users\anujv\OneDrive\Desktop\TechVille-SmartCity\obj\Debug\net10.0\TechVille-SmartCity.AssemblyInfo.cs
+C:\Users\anujv\OneDrive\Desktop\TechVille-SmartCity\obj\Debug\net10.0\TechVille-SmartCity.csproj.CoreCompileInputs.cache
+C:\Users\anujv\OneDrive\Desktop\TechVille-SmartCity\obj\Debug\net10.0\TechVille-SmartCity.dll
+C:\Users\anujv\OneDrive\Desktop\TechVille-SmartCity\obj\Debug\net10.0\refint\TechVille-SmartCity.dll
+C:\Users\anujv\OneDrive\Desktop\TechVille-SmartCity\obj\Debug\net10.0\TechVille-SmartCity.pdb
+C:\Users\anujv\OneDrive\Desktop\TechVille-SmartCity\obj\Debug\net10.0\TechVille-SmartCity.genruntimeconfig.cache
+C:\Users\anujv\OneDrive\Desktop\TechVille-SmartCity\obj\Debug\net10.0\ref\TechVille-SmartCity.dll
