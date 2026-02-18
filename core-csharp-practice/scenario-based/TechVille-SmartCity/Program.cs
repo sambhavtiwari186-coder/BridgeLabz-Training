@@ -1,6 +1,5 @@
 ﻿using System;
 using TechVilleSmartCity.Services;
-using TechVilleSmartCity.Models;
 
 namespace TechVilleSmartCity
 {
@@ -9,21 +8,12 @@ namespace TechVilleSmartCity
         static void Main(string[] args)
         {
             CitizenRegistrationService service = new CitizenRegistrationService();
-            
-            Citizen citizen = service.RegisterCitizen();
 
-            if (citizen != null)
-            {
-                citizen.DisplayCitizenInfo();
-            }
-            else
-            {
-                Console.WriteLine("Registration Failed Due to Invalid Input.");
-            }
+            service.RegisterMultipleCitizens();
 
-            Console.WriteLine("\nPress any key to exit...");
+            Console.WriteLine("\nRegistration Session Completed.");
+            Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
         }
     }
 }
-

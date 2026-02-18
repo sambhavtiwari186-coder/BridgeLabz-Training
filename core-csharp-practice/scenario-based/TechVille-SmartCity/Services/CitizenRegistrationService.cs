@@ -6,44 +6,54 @@ namespace TechVilleSmartCity.Services
 {
     public class CitizenRegistrationService
     {
-        public Citizen RegisterCitizen()
+        public void RegisterMultipleCitizens()
         {
-            Console.WriteLine("=== TechVille Citizen Registration ===");
+            Console.Write("How many family members to register? ");
+            int count = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter Name: ");
-            string name = Console.ReadLine();
-
-            Console.Write("Enter Age: ");
-            int age = Convert.ToInt32(Console.ReadLine());
-
-            if (!Validator.ValidateAge(age))
+            for (int i = 1; i <= count; i++)
             {
-                Console.WriteLine("Invalid Age Entered.");
-                return null;
+                Console.WriteLine($"\n--- Registering Member {i} ---");
+
+                Console.Write("Enter Name: ");
+                string name = Console.ReadLine();
+
+                Console.Write("Enter Age: ");
+                int age = Convert.ToInt32(Console.ReadLine());
+
+                if (!Validator.ValidateAge(age))
+                {
+                    Console.WriteLine("Invalid Age. Skipping this member...");
+                    continue; // continue used here
+                }
+
+                Console.Write("Enter Annual Income: ");
+                double income = Convert.ToDouble(Console.ReadLine());
+
+                if (!Validator.ValidateIncome(income))
+                {
+                    Console.WriteLine("Invalid Income. Stopping Registration.");
+                    break; // break used here
+                }
+
+                Console.Write("Enter Residency Years: ");
+                int residency = Convert.ToInt32(Console.ReadLine());
+
+                if (!Validator.ValidateResidency(residency))
+                {
+                    Console.WriteLine("Invalid Residency. Skipping...");
+                    continue;
+                }
+
+                Citizen citizen = new Citizen(name, age, income, residency);
+
+                citizen.CalculateEligibility();
+                citizen.DetermineServicePackage();
+
+                citizen.DisplayCitizenInfo();
+
+                ServicePackage.ShowPackageBenefits(citizen.ServicePackage);
             }
-
-            Console.Write("Enter Annual Income: ");
-            double income = Convert.ToDouble(Console.ReadLine());
-
-            if (!Validator.ValidateIncome(income))
-            {
-                Console.WriteLine("Invalid Income Entered.");
-                return null;
-            }
-
-            Console.Write("Enter Residency Years in TechVille: ");
-            int residency = Convert.ToInt32(Console.ReadLine());
-
-            if (!Validator.ValidateResidency(residency))
-            {
-                Console.WriteLine("Invalid Residency Years.");
-                return null;
-            }
-
-            Citizen citizen = new Citizen(name, age, income, residency);
-            citizen.CalculateEligibility();
-
-            return citizen;
         }
     }
 }
